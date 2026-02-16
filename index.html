@@ -71,6 +71,28 @@
     max-width: 800px;
     line-height: 1.6;
   }
+  .header .cta-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--orange);
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+  }
+  .header .cta-link:hover {
+    color: var(--text);
+  }
+  .header .cta-link .arrow {
+    display: inline-block;
+    margin-left: 6px;
+    transition: transform 0.2s;
+  }
+  .header .cta-link:hover .arrow {
+    transform: translateX(4px);
+  }
 
   /* ── Pathway container ── */
   .pathway-wrap {
@@ -581,6 +603,7 @@
   <h1><a href="https://aieutics.com" target="_blank"><img class="logo" src="aieutics_transparentbg_logo.svg" alt="Aieutics"></a>Critical Path <span>Layers</span></h1>
   <div class="subtitle">Startups and Scaleup Innovation Edition</div>
   <div class="desc">Themes are ordered by when they must be resolved, not what domain they belong to. Each layer gates the next. Working on downstream themes before upstream prerequisites are resolved is the most common pattern of wasted founder effort.</div>
+  <a class="cta-link" href="https://aieutics.com/framework" target="_blank">Read more about the framework <span class="arrow">→</span></a>
 </div>
 
 
