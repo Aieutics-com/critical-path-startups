@@ -1,2 +1,13 @@
 HANDOVER.md
 .DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Build output
+out/
+.next/
